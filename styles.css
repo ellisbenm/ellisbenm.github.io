@@ -12,7 +12,7 @@ html {
 
 .banner {
     font-size: 72px;
-    background: -webkit-linear-gradient(rgb(128, 80, 25), rgb(151, 107, 40));
+    background: -webkit-linear-gradient(rgb(170, 111, 43), rgb(100, 69, 44));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 20px;
