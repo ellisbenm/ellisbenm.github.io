@@ -1,0 +1,54 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(224, 214, 200);
+}
+
+.banner {
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(128, 80, 25), rgb(151, 107, 40));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px;
+}
+.content {
+    background-color: whitesmoke;
+    padding: 100px;
+    margin: 35px;
+    box-shadow: 0 0 0 25px rgb(100, 69, 44);
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+th {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+td {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+footer p {
+    text-align: center;
+    color: darkgray;
+}

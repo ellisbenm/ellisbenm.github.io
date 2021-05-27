@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Padding Cheat Sheet</title>
+    <link rel="stylesheet" typer="text/css" href="styles.css">
+  </head>
+  <body>
+      <section class="content">
+        <h1 class="banner">CSS Padding Reference Guide</h1>
+        <br>
+        <h2>CSS Padding Syntax and Effects</h2>
+        <p>The CSS <span class="code">padding</span> properties are used to generate space around an element's content, <em>inside</em> of any defined borders.</p>
+        <p>With CSS, you hace full control over the padding.  There are properties for setting the padding of eash side of an element (<em>Top, right, bottom, and left</em>)</p>
+        <table>
+            <thead>
+                <th>Property Name</th>
+                <th>Effect</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">padding</span></td>
+                    <td>The <span class="code">padding</span> property is a shorthand property for the following individual padding properties.  When using only one parameter, the padding amount used cascades to all sides of the element</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h3>So here's how it works...</h3>
+        <p>If the <span class="code">padding</span> property has <strong><u>four</u></strong> values:</p>
+        <ul>
+            <li><strong>padding: 25px 50px 75px 100px;</strong></li>
+            <ul>
+                <li>top padding is 25px</li>
+                <li>right padding is 50px</li>
+                <li>bottom padding is 75 px</li>
+                <li>left padding is 100px</li>
+            </ul>
+        </ul>
+        <p>Notice that the values are assinged from the <b>top</b> and proceeding <em>clockwise</em>, ending at the left side.</p>
+        <p>You can address these properties directly as well:</p>
+        <table>
+            <thead>
+                <th>Property name</th>
+                <th>Effect</th>
+            </thead>
+            <tr>
+                <td><span class="code">padding-top</span></td>
+                <td>Controls the amount of padding on the <em>top</em> of the element</td>
+            </tr>
+            <tr>
+                <td><span class="code">padding-right</span></td>
+                <td>Controls the amount of padding on the <em>right</em> side of the element</td>
+            </tr>
+            <tr>
+                <td><span class="code">padding-bottom</span></td>
+                <td>Controls the amount of padding on the <em>bottom</em> of the element</td>
+            </tr>
+            <tr>
+                <td><span class="code">padding-left</span></td>
+                <td>Controls the amount of padding on the <em>left</em> side of the element</td>
+            </tr>
+        </table>
+        <p>And if the <span class="code">padding</span> property has <strong><u>three</u></strong> values:</p>
+        <ul>
+            <li><b>padding: 25px 50px 75px;</b></li>
+            <ul>
+                <li>top padding is 25px</li>
+                <li>right <em>and</em> left paddings are 50px</li>
+                <li>bottom padding is 75px</li>
+            </ul>
+        </ul>
+        <p>Notice that when <span class="code">padding</span> uses <u>3</u> values, the <em>sides</em> share a value.</p>
+        <p>Lastly, if the <span class="code">padding</span> property has only 2 values:</p>
+        <ul>
+            <li><b>padding: 25px 50px;</b></li>
+            <ul>
+                <li>top <em>and</em> bottom paddings are 25px</li>
+                <li>right <em>and</em> left paddings are 50px</li>
+            </ul>
+        </ul>
+        <p>Notice that when <span class="code">padding</span> uses <u>2</u> values, both the sides <em>and</em> the horizontal boundaries share values respectively.</p>
+      </section>
+  </body>
+  <footer>
+      <p>Ben Ellis - 2021</p>
+  </footer>
+</html>
