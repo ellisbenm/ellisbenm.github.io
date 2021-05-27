@@ -46,7 +46,9 @@ td {
 table {
     border-collapse: collapse;
     margin: 20px;
-    background-color: rgb(197, 167, 224);
+    background-color: rgb(211, 198, 223);
+    border: 20px rgb(211, 198, 223);
+    border-radius: 10px;
 }
 
 footer p {
